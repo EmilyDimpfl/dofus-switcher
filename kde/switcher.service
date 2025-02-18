@@ -1,0 +1,11 @@
+[Unit]
+Description=Dofus Window Switcher service
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/bash /home/emily/projects/dofus-switcher/dbus_service.py
+Type=simple
+BusName=saone.dofusswitcher.service
+
+[Install]
+WantedBy=multi-user.target

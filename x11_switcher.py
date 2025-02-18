@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-This is a window switcher for the MMORPG Dofus, on Ubuntu Linux 24.04.
+This is a window switcher for the MMORPG Dofus, written on Ubuntu Linux 24.04 with X11.
 
 You can install xdotool, xprop, and wmctrl with `apt install xdotool wmctrl x11-utils -y`
 
